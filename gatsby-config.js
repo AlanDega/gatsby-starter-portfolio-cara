@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `AlanDega-Portfolio`,
   },
   plugins: [
     {
@@ -29,13 +29,13 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
+            src: `/favicon-32x32.png`,
+            sizes: `32x32`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/favicon-32x32.png`,
+            sizes: `favicon-32x32.png`,
             type: `image/png`,
           },
         ],
